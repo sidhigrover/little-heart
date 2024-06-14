@@ -1,0 +1,179 @@
+body {
+  background-image: url("../assets/asset images/story4-bg.jpg");
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(249, 145, 145, 0.781);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+div.navbar {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  margin: 0px;
+  padding: 10px;
+}
+img {
+  width: 5%;
+  margin: 0px;
+  padding: 0px;
+}
+#Home {
+  float: left;
+  width: 20%;
+  transition: transform infinite ease-in 0s;
+}
+#Home:hover {
+  transform: scale(1.2);
+}
+#logo {
+  float: left;
+}
+div {
+  border: 2px solid black;
+  margin: 20px;
+  padding: 27px;
+}
+div.main-container {
+  border: none;
+  display: flex;
+}
+div.age-box {
+  width: 45%;
+  height: 80%;
+  background-color: rgba(133, 51, 221, 0.601);
+
+  border-radius: 25px;
+  box-shadow: 10px 10px 5px rgba(93, 93, 93, 0.876);
+  color: black;
+}
+#container-1 {
+  float: left;
+}
+#container-2 {
+  float: right;
+}
+div.option {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  font-size: larger;
+  background-color: rgb(86, 178, 231);
+  cursor: pointer;
+  /* border-radius: 10%; */
+  transition: transform infinite ease-in 0s;
+  border-radius: 10px;
+  box-shadow: 7px 7px 5px rgba(70, 69, 69, 0.876);
+  color: black;
+  text-shadow: 0.7px 0.6px 0.7px rgba(35, 35, 35, 0.876);
+}
+div.option:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  font-family:cursive;
+  font-size: 4rem;
+  text-shadow: 2px 1.5px 2px rgba(35, 35, 35, 0.876);
+  margin:auto;
+  /* font-family: "Bookman Old Style"; */
+}
+p{
+  font-size: 2rem;
+  font-family:Arial, Helvetica, sans-serif;
+  text-shadow: 1.2px 1px 1.2px rgba(35, 35, 35, 0.876);
+}
+/* Style for the story pop-up */
+#story-popup {
+  display: none;
+  position: fixed;
+  padding-left: 13rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+}
+
+#story-content {
+  background-image: url("../assets/asset images/story2-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: white;
+  padding: 2rem;
+  padding-top: 2rem;
+  border-radius: 5px;
+  max-width: 80%;
+  max-height: 80%;
+  overflow-y: auto;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Media Queries for responsiveness */
+
+/* For phones */
+@media (max-width:480px) {
+  body {
+    background-size: cover; 
+    overflow-x: hidden;
+    align-items: center;
+}
+img {
+    width: 15%; 
+}
+#Home {
+    width: 17%; 
+}
+div.main-container {
+    flex-direction: column;
+    margin-right: 20%;
+    margin-left: -7%;
+}
+div.age-box {
+    width: 100%;    
+}
+#container-1, #container-2 {
+    float: none; 
+}
+div.option {
+    font-size: medium;
+    width: 75%; 
+    margin-left: 2.8%; 
+}
+h1 {
+    font-size: 1.6rem; 
+}
+h5 {
+    font-size: large;
+}
+#story-popup {
+  display: none;
+  position: fixed;
+  padding-left: 0rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center;
+}
+
+#story-content {
+  background-image: url("../assets/asset images/story2-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: white;
+  padding: 2rem;
+  padding-top: 2rem;
+  border-radius: 5px;
+  max-width: 80%;
+  max-height: 80%;
+  overflow-y: auto;
+  font-size: large;
+}
+}

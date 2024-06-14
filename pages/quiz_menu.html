@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LittleVoices-Quiz</title>
+    <link rel="stylesheet" href="quiz_menu.css" />
+  </head>
+  <body>
+    
+    <div class="navbar">
+      <a href="/pages/landing-page.html">
+        <img src="../assets/asset images/home_button.png" alt="Home" id="Home" />
+      </a>
+      <img
+        src="../assets/asset images/logo.png"
+        alt="Little Voices"
+        id="Logo"/>
+      
+    </div>
+
+    <p>QUIZ TIME!</p>
+    <div class="main-container">
+      <div class="age-box" id="container-1" onclick="open1()">
+        <p id="age">I am</p><br>
+        <p id="age">8 - 12 years old</p>
+      </div>
+      <div class="age-box" id="container-2" onclick="open2()">
+        <p id="age">I am</p><br>
+        <p id="age">12 - 16 years old</p>
+      </div>
+    </div>
+    <script>
+      function open1()
+      {
+        window.open("../pages/8-12.html","_self");
+      }
+      function open2()
+      {
+        window.open("../pages/12-16.html","_self");
+      }
+    </script>
+  </body>
+</html>

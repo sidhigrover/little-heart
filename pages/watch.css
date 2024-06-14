@@ -1,0 +1,135 @@
+body {
+  background-image: url("../assets/asset images/watch-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#logo {
+  float: right;
+  width: 5%;
+}
+
+#home-logo {
+  float: left;
+  width: 5%;
+}
+
+.boxR {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  background-color: rgba(239, 218, 239, 0.8);
+  padding: 5%;
+  border-radius: 10%;
+}
+
+p {
+  text-align: center;
+  font-family:cursive;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.boxL {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  background-color: rgba(243, 244, 225, 0.8);
+  padding: 5%;
+  border-radius: 10%;
+}
+
+.textbox {
+  width: 100%;
+  margin: auto;
+  font-size: xx-large;
+  font-weight: 600;
+  padding: 10%;
+  color: rgb(0, 0, 0);
+  align-content: center;
+  float: left;
+  font-family:Helvetica;
+  text-align: center;
+}
+
+#containerL iframe {
+  width: 31.5rem;
+  height: 17.7rem;
+  float: left;
+  padding: 2%;
+}
+
+#containerR iframe {
+  width: 31.5rem;
+  height: 17.7rem;
+  float: right;
+  padding: 2%;
+}
+/* Media Queries for responsiveness */
+
+/* For phones */
+@media (max-width: 480px) {
+  
+  body {
+    background-image: url("../assets/asset images/watch-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  #logo {
+    float: right;
+    width: 17%;
+  }
+  
+  #home-logo {
+    float: left;
+    width: 17%;
+  }
+  
+  .boxR, .boxL {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    background-color: rgba(243, 244, 225, 0.8);
+    padding: 5%;
+    border-radius: 10%;
+  }
+  
+  p {
+    text-align: center;
+    font-family:cursive;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  
+  .textbox {
+    width: 100%;
+    margin: auto;
+    font-size: x-large;
+    font-weight: 600;
+    padding: 10%;
+    color: rgb(0, 0, 0);
+    align-content: center;
+    float: left;
+    font-family:Helvetica;
+    text-align: center;
+  }
+  
+  #containerL iframe, #containerR iframe {
+    width: 19rem;
+    height: auto;
+    padding: 2%;
+  }
+}
+
+/* For tablets */
+@media (min-width: 481px) and (max-width: 1024px) {
+  /* Additional styles for tablets here */
+}
+
+/* For laptops and larger screens */
+@media (min-width: 1025px) {
+  /* Additional styles for laptops and larger screens here */
+}
